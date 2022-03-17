@@ -50,7 +50,7 @@ public function insertEt()
            
           
             
-         header("Location:http://localhost/etudiantvf/Routing.php?action=display");
+         header("Location:http://localhost/etudiants/Routing.php?action=display");
            }
      }
 
@@ -87,7 +87,7 @@ if(isset($_POST['update'])){
           $this->etudiantTransaction->update($this->etudiant);   
                   
 
-  header("Location:http://localhost/etudiantvf/Routing.php?action=display");
+  header("Location:http://localhost/etudiants/Routing.php?action=display");
 
 }
 }
@@ -100,7 +100,7 @@ if(isset($_POST['update'])){
    
     $this->etudiantTransaction->delete($id);
 
-    header("Location:http://localhost/etudiantvf/Routing.php?action=display");
+    header("Location:http://localhost/etudiants/Routing.php?action=display");
   
 }
     

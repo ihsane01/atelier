@@ -16,8 +16,6 @@
 
 <div class="container" style = "margin : 40px;">
 
-
-
 <form action="" method="POST">
     <label class="form-label">Name</label>
     <input type="text" class="form-control" name="nom" placeholder="Your Name" value=<?= $etudiant->getNom()?>>
